@@ -1,0 +1,32 @@
+:root[data-theme='light'] {
+	--text: #000000;
+	--bg: #ffffff;
+	--primary: #ff3c00;
+	--secondary: #ff6a38;
+	--accent: #ffab8f;
+}
+:root[data-theme='dark'] {
+	--text: #ffffff;
+	--bg: #000000;
+	--primary: #ff3c00;
+	--secondary: #c73200;
+	--accent: #701c00;
+}
+
+a,
+visited {
+	text-decoration: none;
+	color: var(--text);
+}
+
+* {
+	font-family: system-ui;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: var(--bg);
+	color: var(--text);
+}
