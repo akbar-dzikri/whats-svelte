@@ -1,5 +1,5 @@
 # Whats-svelte
 
-This is a WhatsApp web clonenmade using sveltekit 
+This is a WhatsApp web clone made using sveltekit 
 
 
